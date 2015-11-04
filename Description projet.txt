@@ -1,4 +1,27 @@
 Thème : Informatique
-Sujet : Site web sur l'IA
+Sujet : Site web sur la ville de Lyon et sa banlieue
 
 Description : 
+Catégories :
+- Accueil
+- Histoire
+- Géographie (situation géographique)
+- Environnement (Présentation des différents parcs (avec un peu d'histoire))
+- Monuments importants
+- Quartiers de Lyon
+- Transports en commun
+- Politique
+- Culture
+- Plus d'informations (office du tourisme et adresse intéressantes)
+
+
+
+
+
+
+
+
+Idées au pif :
+- Présentation de Lyon (ou Villeurbanne)
+- Présentation des nouvelles inventions
+- 
