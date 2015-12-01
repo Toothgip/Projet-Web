@@ -1,5 +1,14 @@
 body{
 	background-image : url(src/image/banniere.jpg);
 	background-repeat : no-repeat ;
-	background-size : 100% 5000%;
+	
+	background-attachment : scroll;
+}
+h1{ /* Appliqué au 1er paragraphe de body */
+	padding-top: 290px;
+	text-align: center;
+	text-decoration: underline;
+}
+p{
+	font-size: 15pt;
 }
