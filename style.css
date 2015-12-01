@@ -1,14 +1,52 @@
-body{
-	background-image : url(src/image/banniere.jpg);
+html
+{
+	background-image : url('src/image/PanoramaLyon.jpg');
 	background-repeat : no-repeat ;
-	
-	background-attachment : scroll;
+	background-attachment: fixed;
+	background-position: top;
+	background-size: auto 100%;
 }
-h1{ /* Appliqué au 1er paragraphe de body */
-	padding-top: 290px;
+
+header>div
+{
+	text-align: center;
+	border-radius: 0.5em;
+	margin: 1vh 3vw;
+	padding: 1em;
+	background-color: rgb(150,150,200);
+}
+
+header>div>img
+{
+	width: 100%;
+}
+
+#menu
+{
+	text-align: center;	
+	margin: 1vh 3vw;
+	padding: 2em;
+	border-radius: 0.5em;
+	background-color: rgb(200,100,100);
+}
+
+
+
+body>div
+{
+	background-color: #dcdbda;
+	margin: 1vh 10vw;
+	padding: 2em;
+	border-radius: 0.5em;	
+}
+
+h1
+{ /* Appliqué au 1er paragraphe de body */
 	text-align: center;
 	text-decoration: underline;
 }
-p{
+
+p
+{
 	font-size: 15pt;
 }
