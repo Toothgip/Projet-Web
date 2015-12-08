@@ -41,6 +41,7 @@ header>div>img
 #boutonsMenu li
 {
 	display: inline;
+	text-align: center;
 }
 #boutonsMenu li a
 {
@@ -48,10 +49,11 @@ header>div>img
 	border-radius: 0.5em;
 	border: 1px solid white;
 	padding: 1vh 1vw;
-	margin: 2px;
+	margin: 0.1%;
 	text-decoration: none;
 	color: black;
 	font-size: 150%;
+	text-align: center;
 }
 
 body>div
