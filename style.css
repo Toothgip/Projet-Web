@@ -13,6 +13,7 @@ header>div
 	border-radius: 0.5em;
 	margin: 1vh 3vw;
 	padding: 1em;
+	border: 1px solid white;
 	background-color: rgb(150,150,200);
 }
 
@@ -20,7 +21,7 @@ header>div>img
 {
 	width: 100%;
 }
-
+/*
 #menu
 {
 	text-align: center;	
@@ -29,8 +30,29 @@ header>div>img
 	border-radius: 0.5em;
 	background-color: rgb(200,100,100);
 }
+*/
+#boutonsMenu
+{
+	list-style: none;
+	text-align: center;
+	margin: 3vh 1vw;
+}
 
-
+#boutonsMenu li
+{
+	display: inline;
+}
+#boutonsMenu li a
+{
+	background-color: rgb(150,150,200);
+	border-radius: 0.5em;
+	border: 1px solid white;
+	padding: 1vh 1vw;
+	margin: 2px;
+	text-decoration: none;
+	color: black;
+	font-size: 150%;
+}
 
 body>div
 {
@@ -44,6 +66,8 @@ h1
 { /* Appliqué au 1er paragraphe de body */
 	text-align: center;
 	text-decoration: underline;
+	border-top: 2px solid green;
+	border-left: 2px dashed green;
 }
 
 p
