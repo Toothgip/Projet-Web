@@ -89,9 +89,12 @@ footer nav
 footer img
 {
 	width: 10%;
-	float: left;
 }
 footer a
 {
 	margin: 2%;
+}
+footer>a
+{
+	float: right;
 }
