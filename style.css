@@ -72,6 +72,25 @@ body>div
 	border-radius: 0.5em;	
 }
 
+body>img
+{
+	position: fixed;
+	bottom: 5px;
+	width: 10vw;
+}
+
+
+#lionSil_g
+{
+	right: 5px;
+}
+
+#lionSil_d
+{
+	left: 5px;
+}
+
+
 h1
 {
 	border-top: 2px solid green;
