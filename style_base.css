@@ -57,6 +57,18 @@ h1
 p
 {
 	font-size: 15pt;
+	width: 58%;
+}
+
+.clear
+{
+	clear:both;
+}
+
+div>img
+{
+	float: right;
+	max-width: 40%;
 }
 
 a
