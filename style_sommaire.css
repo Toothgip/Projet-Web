@@ -1,5 +1,7 @@
-li
+#sommaire li
 {
 	list-style: none;
 	padding-left: 1vw;
+	margin: 0.5em;
+	font-size: 
 }
