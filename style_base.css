@@ -1,6 +1,6 @@
 html
 {
-	background-image : url('src/image/PanoramaLyon.jpg');
+	background-image : url('ressource/image/PanoramaLyon.jpg');
 	background-repeat : no-repeat ;
 	background-attachment: fixed;
 	background-position: top;
@@ -12,13 +12,14 @@ html
 	list-style: none;
 	text-align: center;
 	margin: 3vh 1vw;
-
+	max-width: 100%;
 }
 
 #boutonsMenu li
 {
 	display: inline;
 	text-align: center;
+	max-width: 5vw;
 }
 #boutonsMenu li a
 {
