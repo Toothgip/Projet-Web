@@ -89,6 +89,13 @@ div>img
 	max-width: 40%;
 }
 
+#formulaire
+{
+	display: inline-block;
+
+}
+
+
 a
 {
 	color: rgb(230,125,20);
