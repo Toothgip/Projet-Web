@@ -89,13 +89,31 @@ div>img
 	max-width: 40%;
 }
 
-#formulaire
+/* Formulaire */
+fieldset
 {
-	display: inline-block;
+	width: 50%;
+	display: block;
+	text-align: center;
+	margin: auto; /* Centre le formulaire */
+}
 
+label, textarea , button 
+{
+	display: block;
+	margin-top: 1vh;
+	
+	margin-left:auto;  /* Centre horizontalement les blocks */
+	margin-right: auto;
+}
+
+legend
+{
+	text-align: left;
 }
 
 
+/* Footer */
 a
 {
 	color: rgb(230,125,20);
