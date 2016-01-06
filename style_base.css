@@ -87,16 +87,29 @@ p
 	margin: 15%;
 }
 
+.zoom /* Images qui sont dans les pages de contenu */
+{
+	float: right;
+	max-width: 40%;
+}
+
+
+
+.zoom:active
+{
+	-webkit-transform:scale(1.5); /* Safari et Chrome */
+	-moz-transform:scale(1.5); /* Firefox */
+	-ms-transform:scale(1.5); /* Internet Explorer 9 */
+	-o-transform:scale(1.5); /* Opera /    */
+	transform:scale(1.5);
+}
+
 .clear
 {
 	clear:both;
 }
 
-div>img
-{
-	float: right;
-	max-width: 40%;
-}
+
 
 /* Formulaire */
 fieldset
