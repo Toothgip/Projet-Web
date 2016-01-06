@@ -78,6 +78,15 @@ p
 	/*width: 58%;*/
 }
 
+#envoiDemande
+{
+	font-size: 200%;
+	text-align: center;
+	color: rgb(80,80,80);
+	font-weight: bold;
+	margin: 15%;
+}
+
 .clear
 {
 	clear:both;
