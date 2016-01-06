@@ -3,5 +3,11 @@
 	list-style: none;
 	padding-left: 1vw;
 	margin: 0.5em;
-	font-size: 
+	font-size: 150%
+}
+
+#sommaire li ul li
+{
+	font-size: 50%;
+	color: red;
 }
