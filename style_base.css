@@ -1,4 +1,4 @@
-html
+﻿html
 {
 	background-image : url('ressource/image/PanoramaLyon.jpg');
 	background-repeat : no-repeat ;
@@ -72,6 +72,17 @@ h1
 	padding: 3px;
 	color: green;
 }
+
+h2
+{
+	display: inline;
+	padding: 2px;
+	margin-left: 15%;
+	color: #128b99; /* Bleu pastel */
+	border-right: 3px solid #128b99;
+ 	border-bottom: 1px solid #128b99;
+}
+
 
 p
 {
