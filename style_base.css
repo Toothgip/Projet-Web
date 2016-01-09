@@ -104,6 +104,7 @@ ul
 	list-style: disc;
 	font-size: 15pt;
 	border-left: 1px solid #848484;
+	margin-left: 3%;
 }
 
 .zoom /* Images qui sont dans les pages de contenu */
@@ -135,6 +136,12 @@ ul
 .clear
 {
 	clear:both;
+}
+
+section
+{
+	clear: both;
+	padding-bottom: 5vh;
 }
 
 
