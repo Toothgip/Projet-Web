@@ -1,13 +1,31 @@
-#sommaire li
+#sommaire
 {
+	border: 0px;
 	list-style: none;
-	padding-left: 1vw;
-	margin: 0.5em;
-	font-size: 150%
+	margin-left: 2%;
+	padding-left: 0px;
+	font-size: 130%
 }
 
-#sommaire li ul li
+#sommaire ol
 {
-	font-size: 50%;
-	color: red;
+	list-style: upper-roman;
+	font-size: 90%;
+	padding-left: 5%;
+}
+
+#sommaire li
+{
+	margin-left: 1vw;
+	margin: 0.5em;
+}
+
+#sommaire a
+{
+	color: green;
+}
+
+#sommaire ol a
+{
+	color: #128b99;
 }

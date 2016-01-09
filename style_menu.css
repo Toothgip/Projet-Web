@@ -15,3 +15,13 @@
 	float: none;
 	
 }
+
+#video
+{
+	text-align: center;
+}
+
+video
+{
+	width: 60%;
+}
