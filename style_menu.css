@@ -1,0 +1,17 @@
+﻿header>div
+{
+	text-align: center;
+	border-radius: 0.5em;
+	margin: 1vh 3vw;
+	padding: 1em;
+	border: 1px solid white;
+	background-color: rgb(150,150,200);
+}
+
+#banniere
+{
+	max-width: 100%;
+	width: 100%;
+	float: none;
+	
+}

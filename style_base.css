@@ -1,0 +1,199 @@
+﻿html
+{
+	background-image : url('ressource/image/PanoramaLyon.jpg');
+	background-repeat : no-repeat ;
+	background-attachment: fixed;
+	background-position: top;
+	background-size: auto 100%;
+}
+
+#boutonsMenu
+{
+	list-style: none;
+	text-align: center;
+	margin: 3vh 1vw;
+	max-width: 100%;
+}
+
+#boutonsMenu li
+{
+	display: inline;
+	text-align: center;
+	max-width: 5vw;
+}
+#boutonsMenu li a
+{
+	background-color: rgb(150,150,200);
+	border-radius: 0.5em;
+	border: 1px solid white;
+	padding: 1vh 1vw;
+	margin: 0.1%;
+	text-decoration: none;
+	color: black;
+	font-size: 150%;
+	text-align: center;
+}
+
+#boutonsMenu li a:hover, #boutonsMenu li a:focus, #boutonsMenu li a:active
+{
+	background: rgb(90,90,160)
+}
+
+body>div
+{
+	background-color: #dcdbda;
+	margin: 1vh 10vw;
+	padding: 2em;
+	border-radius: 0.5em;	
+}
+
+body>img
+{
+	position: fixed;
+	bottom: 5px;
+	width: 10vw;
+}
+
+
+#lionSil_g
+{
+	right: 5px;
+}
+
+#lionSil_d
+{
+	left: 5px;
+}
+
+h1
+{
+	border-top: 2px solid green;
+	border-left: 6px solid green;
+	padding: 3px;
+	color: green;
+}
+
+h2
+{
+	display: inline;
+	padding: 2px;
+	margin-left: 15%;
+	color: #128b99; /* Bleu pastel */
+	border-right: 3px solid #128b99;
+ 	border-bottom: 1px solid #128b99;
+}
+
+
+p
+{
+	font-size: 15pt;
+}
+
+#envoiDemande
+{
+	font-size: 200%;
+	text-align: center;
+	color: rgb(80,80,80);
+	font-weight: bold;
+	margin: 15%;
+}
+
+.zoom /* Images qui sont dans les pages de contenu */
+{
+	float: right;
+	max-width: 40%;
+	margin: 5px;
+	border-radius: 0.5em;
+}
+
+.zoom:hover /* Effet de bordure lorsque l'on survole avec la souris */
+{
+	border: 5px ridge gray;
+	
+	margin: 0px; /* Enleve la marge de la bordure */
+	
+}
+
+.zoom:active  /* Zoom de l'image quand  on clique avec la souris */
+{
+	-webkit-transform: translate(-50%) scale(1.75); /* Safari et Chrome */
+	-moz-transform: translate(-50%) scale(1.75); /* Firefox */
+	-ms-transform: translate(-50%) scale(1.75); /* Internet Explorer 9 */
+	-o-transform: translate(-50%) scale(1.75); /* Opera /    */
+	transform: translate(-50%) scale(1.75);
+	border: 0px;  /* Enleve la bordure */
+}
+
+.clear
+{
+	clear:both;
+}
+
+
+
+/* Formulaire */
+fieldset
+{
+	width: 50%;
+	display: block;
+	text-align: center;
+	margin: auto; /* Centre le formulaire */
+}
+
+label, textarea , button 
+{
+	display: block;
+	margin-top: 1vh;
+	
+	margin-left:auto;  /* Centre horizontalement les blocks */
+	margin-right: auto;
+}
+
+legend
+{
+	text-align: left;
+}
+
+
+/* Footer */
+a
+{
+	color: rgb(230,125,20);
+	text-decoration: none;
+	padding: 1px;
+}
+
+a:hover, a:focus, a:active
+{
+	background-color: white;
+	border-radius: 0.2em;
+}
+
+footer
+{
+	background-color: rgb(80,80,80);
+	border-radius: 0.5em;
+	margin: 1vh 10vw;
+	padding: 1vh 1vw;
+}
+
+footer nav
+{
+	margin: 10px;
+	text-align: center;
+}
+
+footer img
+{
+	width: 10%;
+}
+
+footer a
+{
+	margin: 2%;
+}
+
+footer>a
+{
+	float: right;
+}
