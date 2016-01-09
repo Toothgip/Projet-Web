@@ -92,6 +92,18 @@ p
 	font-size: 15pt;
 }
 
+.legende
+{
+	float:right;
+	clear:both;
+	
+	margin-right:10%;
+	margin-left:5%;
+	
+	font-style:italic;
+	
+}
+
 #envoiDemande
 {
 	font-size: 200%;
